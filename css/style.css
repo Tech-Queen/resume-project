@@ -1,0 +1,109 @@
+.clr {
+    clear: both;
+}
+.fa {
+    color: #05998d;
+}
+.bio,
+.rightArea,
+.Footer {
+    background-color: #ffffff;
+    /* border: solid 1px #c3c3c3; */
+    box-sizing: border-box;
+}
+.bio {
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+}
+.rightArea {
+    float: left;
+    width: 65%;
+    padding-left: 20px;
+}
+.info,
+.skills ,
+.language {
+    padding: 10px;
+}
+li {
+    list-style: none;
+}
+/* .profile {
+    max-width: 200px;
+    /* border: solid 1px #c3c3c3; */
+/* }
+.name {
+    position: absolute;
+    top: 75%;
+    left: 30%;
+}
+.img {
+    position: absolute;
+    top: 75%;
+    left: 30%;
+}
+.profile {
+    position: relative;
+    text-align: center;
+} */
+.profile,
+.img,
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    position: relative;
+    max-width: 200px;
+    /* box-shadow: 3px 3px #05998d; */
+    -webkit-box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.54);
+    -moz-box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.54);
+    box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.54); 
+}
+.name {
+    position: absolute;
+    color: seashell;
+    top: 50%;
+}
+.info,
+.skills,
+.language {
+    padding-top: 20px;
+}
+.fa {
+    padding-right: 10px;
+}
+.progress-bar {
+    background-color: #05998d;
+}
+.skills,
+.language {
+    padding-left: 15px;
+}
+.calender {
+    color: #05998d;
+}
+.calender .btn-primary {
+    background-color: #05998d;
+    color: #ffffff;
+    border-color: #05998d;
+}
+.btn {
+    padding: 1px;
+}
+.Experiences div,
+.Education div {
+    padding-top: 10px;
+}
+.Education{
+    margin-top: 40px;
+}
+.topper {
+    margin-top: 20px;
+}
+.Footer{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

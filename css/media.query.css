@@ -1,0 +1,21 @@
+
+@media (max-width : 780px) {
+    .rightArea,
+    .bio {
+        width: 100%;
+        float: none;
+    }
+    .rightArea,
+    .bio {
+        padding: 0px 40px;
+    }
+    .info,
+    .skills ,
+    .language,
+    ul {
+        padding: 0px;
+    }
+    .profile {
+        margin-bottom: 20px;
+    }
+}
