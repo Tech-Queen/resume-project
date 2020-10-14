@@ -54,8 +54,10 @@ li {
     justify-content: center;
     align-items: center;
 }
-.img{
+.profile{
     position: relative;
+}
+.img{
     max-width: 200px;
     /* box-shadow: 3px 3px #05998d; */
     -webkit-box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.54);
@@ -65,7 +67,7 @@ li {
 .name {
     position: absolute;
     color: seashell;
-    top: 50%;
+    top: 70%;
 }
 .info,
 .skills,
